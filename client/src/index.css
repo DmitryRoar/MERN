@@ -1,0 +1,33 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+body {
+    background: #19191b;
+}
+
+input {
+    color: #fff;
+}
+
+input.yellow-input {
+    border-bottom: 1px solid #fff !important;
+    box-shadow: 0 1px 0 0 #fff !important;
+}
+
+input.yellow-input + label {
+    color: #fff !important
+}
+
+input.yellow-input:focus {
+    border-bottom: 1px solid #6b6b6b !important;
+    box-shadow: 0 1px 0 0 #6b6b6b !important;
+}
+
+input.yellow-input:focus + label {
+    color: #6b6b6b !important
+}
+
+.my-card {
+    background: #212121 !important;
+    border: 1px solid #1E88E5 !important;
+    border-radius: 4px;
+}
